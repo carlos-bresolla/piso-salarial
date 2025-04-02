@@ -1,0 +1,482 @@
+@font-face {
+    font-family: 'Gagalin';
+    src: url('fonts/Gagalin.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Contrail One';
+    src: url('fonts/ContrailOne.ttf') format('truetype');
+}
+/* Responsividade */
+@media (max-width: 768px) {
+    #descricao p{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .conteiner-inicial{
+        width: 100%;
+    }
+    .conteiner-inicial h1{
+        font-size: 35px;
+    }
+    .top{
+        background-position: center;
+        background-color: #113c8d;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .conteiner-secundario img{
+        max-height: 300px;
+    }
+    .ranck-salarios{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    .conteiner-ranck-principal{
+        justify-content: center;
+    }
+    .ranck-salarios h2{
+        font-size: 30px;
+        padding: 15px;
+    }
+    .conteiner-botao button{
+        padding: 20px;
+        font-size: 15px;
+    }
+    .aparecer-mobile{
+        display: block;
+    }
+    .desparecer-mobile{
+        display: none;
+        max-height: 200px;
+    }
+    .rodape{
+        height: 50px;
+        background-color: #113c8d;
+        justify-content: center;
+        
+    }
+    .conteiner-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .site{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .site svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .insta{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .insta svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .facebook{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .facebook svg{
+        width:100% ;
+        fill: #fff;
+    }
+
+}
+
+@media (min-width: 779px) {
+    .top{
+        background-position: center;
+        background-color: #113c8d;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .aparecer-mobile{
+        display: block;
+    }
+    .desparecer-mobile{
+        display: none;
+    }
+    #descricao p{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .conteiner-inicial{
+        width: 50%;
+    }
+    .conteiner-inicial h1{
+        font-size: 35px;
+    }
+    .top{
+        background-position: center;
+        background-color: #113c8d;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sub{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .conteiner-inicial{
+        width: 50%;
+    }
+    .conteiner-secundario img{
+        max-height: 300px;
+    }
+    .ranck-salarios{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    .conteiner-ranck-principal{
+        justify-content: space-around;
+    }
+    .ranck-salarios h2{
+        font-size: 30px;
+        padding: 15px;
+    }
+    .conteiner-botao button{
+        padding: 20px;
+        font-size: 15px;
+    }
+    .aparecer-mobile{
+        display: block;
+    }
+    .desparecer-mobile{
+        display: none;
+    }
+    .rodape{
+        height: 50px;
+    }
+    .conteiner-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .site{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .site svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .insta{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .insta svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .facebook{
+        width: 10%;
+        padding: 20px;
+    }
+
+    .facebook svg{
+        width:100% ;
+        fill: #fff;
+    }
+   
+
+}
+
+@media (min-width: 1200px) {
+
+    .conteiner-inicial{
+        width: 80%;    
+    }
+    .conteiner-inicial h1{
+        font-size: 70px;
+    }
+    .top{
+        padding-top: 100px;
+        background-image: url(img/imagem-fundo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .sub{
+        max-width: 1080px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .conteiner-inicial h1{
+        font-family: 'Gagalin', cursive;
+        font-size: 50px;
+          
+    }
+    .conteiner-inicial p{
+        font-size: 20px;
+    }
+    .conteiner-secundario{
+        width: 20%;
+        max-height: 600px;
+    }
+    .conteiner-secundario img{
+        max-height: 420px;
+    }
+     
+    
+    .imagem-fundo{
+        /*background-image: url(img/imagem-segunda-sessao.png);*/
+        padding: 0px;
+    }
+
+    /* =======================// FIM PRIMEIRA SEÇÃO //======================= */
+    
+    #descricao p{
+        font-size: 24px;
+    }
+    .conteiner-ranck-principal{
+        max-width: 1080px;
+        justify-content: space-between;
+    }
+    .ranck-salarios{
+        width: 45%;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    .ranck-salarios h2{
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+    
+    .tabela-piso{
+        font-size: 23px;
+    
+    }
+    .tabela-piso th{
+        font-size: 25px;
+    }
+    .tabela-piso td{
+        padding: 10px 20px 10px 0px;
+    }
+    .conteiner-botao{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        
+    }
+    .conteiner-botao button{
+        padding: 20px;
+        font-size: 25px;
+    }
+    .rodape{
+        height: 200px;
+    
+    }
+    .imagem-fundo-rodape{
+        height: 250px;
+    }
+    .aparecer-mobile{
+        display: none;
+    }
+    .desparecer-mobile{
+        display: block;
+        max-height: 200px;
+    }
+    .conteiner-footer {
+        max-width: 1080px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .site{
+        width: 5%;
+        padding: 20px;
+    }
+
+    .site svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .insta{
+        width: 5%;
+        padding: 20px;
+    }
+
+    .insta svg{
+        width:100% ;
+        fill: #fff;
+    }
+    .facebook{
+        width: 5%;
+        padding: 20px;
+    }
+
+    .facebook svg{
+        width:100% ;
+        fill: #fff;
+    }
+}
+
+body{
+    margin: 0px;
+    flex-wrap: wrap; 
+}
+.top{
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1080px;
+
+}
+.conteiner-inicial{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.conteiner-inicial h1{
+    font-family: 'Gagalin', cursive;
+    color: #ea742c;
+    margin: 0px;
+    
+}
+.conteiner-inicial p{
+    font-family: 'Contrail One', cursive;
+    color: #fff;
+}
+.conteiner-secundario{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagem-fundo{
+    /*background-image: url(img/imagem-segunda-sessao.png);*/
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.imagem-fundo img{
+    width: 100%;
+}
+/* =======================// FIM PRIMEIRA SEÇÃO //======================= */
+
+#descricao p{
+    text-align: center;
+    font-family: 'Contrail One', cursive;
+}
+.conteiner-ranck{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conteiner-ranck-principal{
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.ranck-salarios{
+    background-color:#113c8d ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.ranck-salarios h2{
+    font-family: 'Gagalin', cursive;
+    color: #ea742c;
+    margin: 0px;
+    text-align: center;
+}
+.primeiro-lugar{
+    color: #fdc738;
+}
+.segundo-lugar{
+    color: #d4cccc;
+}
+.tercerro-lugar{
+    color: #e59c51;
+}
+
+.tabela-piso{
+    color: #fff;
+    text-align: justify;
+    font-family: 'Contrail One', cursive;
+}
+.tabela-piso td{
+    padding: 10px 20px 10px 0px;
+}
+.conteiner-botao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.conteiner-botao button{
+    background-color: #ea742c;
+    color: #fff;
+    font-family: 'Contrail One', cursive;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+.conteiner-botao button:hover{
+    background-color: #113c8d;
+    color: #ea742c;
+    transform: scale(1.1);
+}
+.rodape{
+    height: 100%;
+    background-color: #113c8d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagem-fundo-rodape{
+    width: 100%;
+    
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.imagem-fundo-rodape img{
+    width: 100%;
+}
+
